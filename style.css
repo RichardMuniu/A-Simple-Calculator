@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
+body {
+    background: linear-gradient(to right, darkblue, cyan);
+    font-family: 'Exo', sans-serif;
+
+    /* 
+      Prevents highlighting on the page 
+      Source: https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting
+    */
+
+    -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+}
+
+#master {
+    margin-left: calc(50% - 200px);
+}
+
+.button {
+    background-color: blue;
+    color: lightcyan;
+    width: 50px;
+    height: 90px;
+    border: 1px solid darkblue;
+    text-align: center;
+    cursor: pointer;
+    font-size: 64px;
+    font-weight: 100;
+    padding-top: 3px;
+}
+
+.button:hover {
+    background-color: lightskyblue;
+}
+
+.row {
+    display: table;
+    table-layout: fixed;
+    width: 400px;
+}
+
+.column {
+    display: table-cell;
+}
+
+#zero {
+    width: 100px;
+    border-radius: 0 0 0 20px;
+}
+
+#clear {
+    width: 100px;
+    font-size: 30px: 
+}
+
+#equals {
+    border-radius: 0 0 20px 0;
+}
+
+#display-value {
+    height: 160px;
+    color: white;
+    text-align: right;
+    border-left: 1px darkblue;
+    border-right: 1px darkblue;
+    border-top: 1px darkblue;
+    font-size: 70px;
+    background-color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+}
+
+.operator {
+    background-color: blue;
+    font-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
