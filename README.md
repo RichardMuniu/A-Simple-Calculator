@@ -6,4 +6,4 @@ Most references are from [Eloquent Javascript](eloquentjavascript.net) and a lit
 
 > To use, download source files and open index.html in a browser of your choice. 
 
-![Simple Calculator][https://ibb.co/PGGCP5V]
+![Simple Calculator](images/calc-screenshot.png)
